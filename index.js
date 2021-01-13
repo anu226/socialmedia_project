@@ -5,6 +5,8 @@ const port = 8000;
 app.use(express.static('./assets')); 
 //use layouts
 const expressLayouts = require('express-ejs-layouts');
+//importing database
+const db = require('./config/mongoose');
 
 app.use(expressLayouts);
 //extract style and scripts from sub pages into the layout
