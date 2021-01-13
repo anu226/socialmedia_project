@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            <%= title %>
+        </title>
+        <link rel="stylesheet" href="/css/layout.css">
+        <!-- all links of style will automatically put it in head tag instead of body tag -->
+        <%- style %>
+    </head>
+    <body>
+        <!-- //calling header  -->
+        <%- include('_header'); %> 
+        
+        <%- body %>
+
+        <!-- calling footer  now try-->
+        <%- include('_footer'); %>
+
+        <!-- all scripts tag will automatically put it here  -->
+    </body>
+</html>
+<!-- hey see this is linked but no changes are seen while running sorry my lapi is running too slow -->
+<!-- hey.. plug ur laptop.. battery low -->
+<!-- i will look over the issue -->
